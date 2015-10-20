@@ -1,0 +1,182 @@
+input {
+	border: 2px solid #EFEFED;
+	border-radius: 3px;
+	width: 95%;
+	height: 40px;
+}
+
+.center {
+	display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+}
+
+.primary {
+	display:table-row;
+}
+
+.share {
+	display: table-cell;
+            list-style-type: none;
+            margin: 10px;
+            vertical-align: middle;
+	position: absolute;
+	left: 90px;
+	width:18px;
+	height:15px;
+	background:url("https://drooble.com/Drooble/images/sprites/icons-pack.png");
+	background-position:-519px -5px;
+}
+	
+.sharetxt {
+	display: table-cell;
+            list-style-type: none;
+            margin: 10px;
+            vertical-align: middle;
+	position: absolute;
+	left: 110px;
+	font-family: "Helvetica Neue",sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	vertical-align: top;
+	white-space: nowrap;
+	text-decoration: none;
+}
+	
+ul li.share:hover {
+	background:url("https://drooble.com/Drooble/images/sprites/icons-pack.png");
+	background-position:-496px -5px;
+}
+
+ul li.sharetxt:hover {
+	color: #E9435B;
+}
+
+.like {
+	display: table-cell;
+            list-style-type: none;
+            margin: 10px;
+            vertical-align: middle;
+	position: absolute;
+	left: 10px;
+	width:18px;
+	height:15px;
+	background:url("https://drooble.com/Drooble/images/sprites/icons-pack.png");
+	background-position:-314px -5px;
+}
+	
+.liketxt {
+	display: table-cell;
+            list-style-type: none;
+            margin: 10px;
+            vertical-align: middle;
+	position: absolute;
+	left: 30px;
+	font-family: "Helvetica Neue",sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	vertical-align: top;
+	white-space: nowrap;
+	text-decoration: none; 
+}
+
+ul li.like:hover {
+	background:url("https://drooble.com/Drooble/images/sprites/icons-pack.png");
+	background-position:-288px -5px;
+}
+
+ul li.liketxt:hover {
+	color: #E9435B;
+}
+
+.empty {
+	display: table-cell;
+            width: 10%;
+            list-style-type: none;
+            margin: 10px;
+            vertical-align: middle;
+}
+
+.emptyhi {
+	display: table-cell;
+            /* width: 300px; */
+            list-style-type: none;
+            margin: 10px;
+            vertical-align: middle;
+}
+
+.edit {
+	display: table-cell;
+	list-style-type: none;          
+	font-size: 12px;
+	font-family: "PTSans";
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 2;
+	text-align: center;
+	border-radius: 3px;
+	background-color: rgb( 54, 54, 54 );
+	position: absolute;
+	right: 120px;
+	width: 56px;
+	height: 26px;
+	z-index: 78;
+	vertical-align: middle;
+}
+
+.delete {
+	display: table-cell;
+	list-style-type: none;
+	font-size: 12px;
+	font-family: "PTSans";
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 2;
+	text-align: center;
+	border-radius: 3px;
+	background-color: rgb( 234, 68, 91 );
+	position: absolute;
+	right: 100px;
+	width: 71px;
+	height: 26px;
+	z-index: 76;
+	transform:translate(60px);
+}
+
+ul li.delete:hover {
+	background-color: #5daec0;
+}
+
+ul li.edit:hover {
+	background-color: #5daec0;
+}
+
+.text {
+    font-size: 16px;
+    font-family: "PTSans";
+    color: rgb( 25, 42, 62 );
+    line-height: 1.75;
+    padding-left: 20px;
+    /*text-align: left;*/
+}
+
+#comments {
+    display: block;
+}
+
+#name {
+    font-size: 18px;
+    font-family: "Merriweather";
+    color: rgb( 40, 183, 215 );
+    font-weight: bold;
+    /* line-height: 5.556; */
+    text-align: left;
+}
+
+#datetime {
+    font-size: 10px;
+}
